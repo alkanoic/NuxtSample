@@ -7,8 +7,17 @@ export default defineNuxtConfig({
   css: ["@/assets/css/main.css"],
   postcss: {
     plugins: {
-      tailwindcss: {},
+      tailwindcss: {
+        exposeConfig: true,
+        configPath: "tailwind.config", // 拡張子は不要
+      },
       autoprefixer: {},
+    },
+  },
+  modules: ["@nuxtjs/tailwindcss"],
+  typescript: {
+    tsConfig: {
+      extends: "@tsconfig/strictest/tsconfig.json",
     },
   },
 });
