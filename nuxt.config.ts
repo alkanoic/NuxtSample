@@ -11,7 +11,6 @@ export default defineNuxtConfig({
         exposeConfig: true,
         configPath: "tailwind.config", // 拡張子は不要
       },
-      autoprefixer: {},
     },
   },
   modules: ["@nuxtjs/tailwindcss"],

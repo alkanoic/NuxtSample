@@ -18,12 +18,14 @@
     "parser": "@typescript-eslint/parser",
     "sourceType": "module"
   },
-  "plugins": ["vue", "@typescript-eslint", "tailwindcss"],
+  "plugins": [
+    "vue",
+    "@typescript-eslint",
+    "tailwindcss"
+  ],
   "rules": {
-    "brace-style": "error",
-    "indent": "error",
     "tailwindcss/no-custom-classname": [
-      "warn",
+      "off",
       {
         "config": "tailwind.config.cs"
       }
