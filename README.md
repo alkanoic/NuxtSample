@@ -40,3 +40,9 @@ npm run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Storybook
+
+```bash
+npx storybook@next init --type vue3 --builder vite
+```
