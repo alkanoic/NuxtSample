@@ -23,6 +23,7 @@
     "@storybook/vue3": "^7.0.4",
     "@storybook/vue3-vite": "^7.0.4",
     "@tsconfig/strictest": "^2.0.0",
+    "@types/tabulator-tables": "^5.4.6",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
     "@vue/eslint-config-prettier": "^7.1.0",
@@ -37,12 +38,15 @@
     "prettier-plugin-tailwindcss": "^0.2.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "scss": "^0.2.4",
     "storybook": "^7.0.4",
     "tailwindcss": "^3.3.1",
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@tanstack/vue-table": "^8.8.5",
     "daisyui": "^2.51.5",
+    "tabulator-tables": "^5.4.4",
     "vee-validate": "^4.8.4",
     "yup": "^1.1.0"
   }
