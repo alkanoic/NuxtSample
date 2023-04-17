@@ -1,3 +1,7 @@
+<template>
+  <div ref="table"></div>
+</template>
+
 <script setup lang="ts">
   import { TabulatorFull as Tabulator } from "tabulator-tables"; // import Tabulator library
 
@@ -66,11 +70,10 @@
   });
 </script>
 
-<template>
-  <div ref="table"></div>
-</template>
-
 <style>
-  /* @import "~/tabulator-tables/dist/css/tabulator_simple.min.css"; */
-  /* @import "~/tabulator-tables/dist/css/tabulator.min.css"; */
+  /** 細かいデザインは公式で公開されているクラスに付加 */
+  .tabulator-header .tabulator-col {
+    background-color: #1a9386 !important;
+    color: #ffffff;
+  }
 </style>
