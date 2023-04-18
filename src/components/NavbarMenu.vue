@@ -64,6 +64,11 @@
               >StateCounter</NuxtLink
             >
           </li>
+          <li>
+            <NuxtLink to="/parent-child" @click="closeDrawer"
+              >ParentChild</NuxtLink
+            >
+          </li>
         </ul>
       </div>
     </div>
