@@ -54,6 +54,16 @@
               >TanStackTable</NuxtLink
             >
           </li>
+          <li>
+            <NuxtLink to="/ref-counter" @click="closeDrawer"
+              >RefCounter</NuxtLink
+            >
+          </li>
+          <li>
+            <NuxtLink to="/state-counter" @click="closeDrawer"
+              >StateCounter</NuxtLink
+            >
+          </li>
         </ul>
       </div>
     </div>

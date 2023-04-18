@@ -5,7 +5,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "chrome",
+      "type": "msedge",
       "request": "launch",
       "name": "Launch Chrome",
       "url": "http://localhost:3000",
@@ -16,13 +16,19 @@
       "request": "launch",
       "name": "Launch via NPM",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"]
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ]
     }
   ],
   "compounds": [
     {
       "name": "Full-stack",
-      "configurations": ["Launch via NPM", "Launch Chrome"],
+      "configurations": [
+        "Launch via NPM",
+        "Launch Chrome"
+      ],
       "stopAll": true
     }
   ]

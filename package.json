@@ -44,10 +44,15 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.4.8",
     "@tanstack/vue-table": "^8.8.5",
     "daisyui": "^2.51.5",
+    "pinia": "^2.0.34",
     "tabulator-tables": "^5.4.4",
     "vee-validate": "^4.8.4",
     "yup": "^1.1.0"
+  },
+  "overrides": {
+    "vue": "latest"
   }
 }

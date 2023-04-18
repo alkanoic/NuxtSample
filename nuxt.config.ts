@@ -4,7 +4,10 @@ export default defineNuxtConfig({
     preset: "node",
   },
   srcDir: "src", // componentsやpagesなどのディレクトリを置く場所を指定
-  css: ["@/assets/css/main.css", "tabulator-tables/dist/css/tabulator_simple.min.css"],
+  css: [
+    "@/assets/css/main.css",
+    "tabulator-tables/dist/css/tabulator_simple.min.css",
+  ],
   postcss: {
     plugins: {
       tailwindcss: {
@@ -13,7 +16,7 @@ export default defineNuxtConfig({
       },
     },
   },
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt"],
   typescript: {
     tsConfig: {
       extends: "@tsconfig/strictest/tsconfig.json",
